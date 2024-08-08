@@ -12,14 +12,14 @@
     "@bytemd/plugin-gfm": "^1.21.0",
     "@bytemd/plugin-highlight": "^1.21.0",
     "@bytemd/vue-next": "^1.21.0",
-    "axios": "^1.7.3",
+    "axios": "^1.6.8",
     "core-js": "^3.8.3",
-    "pinia": "^2.2.1",
+    "pinia": "^2.1.7",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },
   "devDependencies": {
-    "@arco-design/web-vue": "^2.56.0",
+    "@arco-design/web-vue": "^2.55.2",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@umijs/openapi": "^1.12.1",

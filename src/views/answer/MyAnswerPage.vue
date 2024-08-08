@@ -21,7 +21,7 @@
     </a-form-item>
     <a-form-item field="appId" label="应用 id">
       <a-input
-        v-model="formSearchParams.appId"
+        :v-model="formSearchParams.appId"
         placeholder="请输入应用 id"
         allow-clear
       />

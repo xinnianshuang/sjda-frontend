@@ -3,7 +3,7 @@
     <a-upload
       :fileList="file ? [file] : []"
       :show-file-list="false"
-      :customrequest="customRequest"
+      :custom-request="customRequest"
     >
       <template #upload-button>
         <div

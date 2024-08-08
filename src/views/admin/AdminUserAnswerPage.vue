@@ -21,14 +21,14 @@
     </a-form-item>
     <a-form-item field="appId" label="应用 id">
       <a-input
-        v-model="formSearchParams.appId"
+        :v-model="formSearchParams.appId"
         placeholder="请输入应用 id"
         allow-clear
       />
     </a-form-item>
     <a-form-item field="userId" label="用户 id">
       <a-input
-        v-model="formSearchParams.userId"
+        :v-model="formSearchParams.userId"
         placeholder="请输入用户 id"
         allow-clear
       />

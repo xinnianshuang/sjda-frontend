@@ -1,23 +1,22 @@
 import { RouteRecordRaw } from "vue-router";
-import HomeView from "@/views/HomeView.vue";
+import HomePage from "@/views/HomePage.vue";
 import UserLayout from "@/layouts/UserLayout.vue";
 import ACCESS_ENUM from "@/access/accessEnum";
 import NoAuthPage from "@/views/NoAuthPage.vue";
 import UserLoginPage from "@/views/user/UserLoginPage.vue";
 import UserRegisterPage from "@/views/user/UserRegisterPage.vue";
 import AdminUserPage from "@/views/admin/AdminUserPage.vue";
+import AdminAppPage from "@/views/admin/AdminAppPage.vue";
+import AdminQuestionPage from "@/views/admin/AdminQuestionPage.vue";
+import AdminScoringResultPage from "@/views/admin/AdminScoringResultPage.vue";
+import AdminUserAnswerPage from "@/views/admin/AdminUserAnswerPage.vue";
+import AppDetailPage from "@/views/app/AppDetailPage.vue";
 import AddAppPage from "@/views/add/AddAppPage.vue";
 import AddQuestionPage from "@/views/add/AddQuestionPage.vue";
-import AppDetailPage from "@/views/app/AppDetailPage.vue";
+import AddScoringResultPage from "@/views/add/AddScoringResultPage.vue";
+import DoAnswerPage from "@/views/answer/DoAnswerPage.vue";
 import AnswerResultPage from "@/views/answer/AnswerResultPage.vue";
 import MyAnswerPage from "@/views/answer/MyAnswerPage.vue";
-import AdminQuestionPage from "@/views/admin/AdminQuestionPage.vue";
-import AdminUserAnswerPage from "@/views/admin/AdminUserAnswerPage.vue";
-import HomePage from "@/views/HomePage.vue";
-import AdminAppPage from "@/views/admin/AdminAppPage.vue";
-import AdminScoringResultPage from "@/views/admin/AdminScoringResultPage.vue";
-import DoAnswerPage from "@/views/answer/DoAnswerPage.vue";
-import AddScoringResultPage from "@/views/add/AddScoringResultPage.vue";
 
 export const routes: Array<RouteRecordRaw> = [
   {

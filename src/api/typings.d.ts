@@ -226,17 +226,6 @@ declare namespace API {
     message?: string;
   };
 
-  type checkUsingGETParams = {
-    /** echostr */
-    echostr?: string;
-    /** nonce */
-    nonce?: string;
-    /** signature */
-    signature?: string;
-    /** timestamp */
-    timestamp?: string;
-  };
-
   type DeleteRequest = {
     id?: number;
   };
@@ -760,11 +749,6 @@ declare namespace API {
     updateTime?: string;
     user?: UserVO;
     userId?: number;
-  };
-
-  type userLoginByWxOpenUsingGETParams = {
-    /** code */
-    code: string;
   };
 
   type UserLoginRequest = {

@@ -17,12 +17,6 @@
       <a-form-item field="appIcon" label="应用图标">
         <a-input v-model="form.appIcon" placeholder="请输入应用图标" />
       </a-form-item>
-      <!--      <a-form-item field="appIcon" label="应用图标">-->
-      <!--        <PictureUploader-->
-      <!--          :value="form.appIcon"-->
-      <!--          :onChange="(value) => (form.appIcon = value)"-->
-      <!--        />-->
-      <!--      </a-form-item>-->
       <a-form-item field="appType" label="应用类型">
         <a-select
           v-model="form.appType"
@@ -134,7 +128,7 @@ const handleSubmit = async () => {
     message.success("操作成功，即将跳转到应用详情页");
     setTimeout(() => {
       router.push(`/app/detail/${props.id ?? res.data.data}`);
-    }, 3000);
+    }, 1000);
   } else {
     message.error("操作失败，" + res.data.message);
   }

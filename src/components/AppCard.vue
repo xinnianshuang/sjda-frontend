@@ -39,7 +39,7 @@
 
 <script setup lang="ts">
 import { IconShareInternal } from "@arco-design/web-vue/es/icon";
-import API from "@/api/index";
+import API from "@/api";
 import { defineProps, withDefaults } from "vue";
 import { useRouter } from "vue-router";
 
@@ -72,7 +72,6 @@ const doCardClick = () => {
   border-radius: 50%;
   transition: all 0.1s;
 }
-
 
 .icon-hover:hover {
   background-color: rgb(var(--gray-2));
