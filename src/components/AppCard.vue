@@ -73,6 +73,7 @@ const doCardClick = () => {
   transition: all 0.1s;
 }
 
+
 .icon-hover:hover {
   background-color: rgb(var(--gray-2));
 }

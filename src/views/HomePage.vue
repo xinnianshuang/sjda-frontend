@@ -31,7 +31,7 @@
 <script setup lang="ts">
 import { ref, watchEffect } from "vue";
 import AppCard from "@/components/AppCard.vue";
-import API from "@/api/index";
+import API from "@/api";
 import { listAppVoByPageUsingPost } from "@/api/appController";
 import message from "@arco-design/web-vue/es/message";
 import { REVIEW_STATUS_ENUM } from "@/constant/app";
@@ -39,7 +39,7 @@ import { REVIEW_STATUS_ENUM } from "@/constant/app";
 // 初始化搜索条件（不应该被修改）
 const initSearchParams = {
   current: 1,
-  pageSize: 12,
+  pageSize: 8,
 };
 
 const searchParams = ref<API.AppQueryRequest>({
